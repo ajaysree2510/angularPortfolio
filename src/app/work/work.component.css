@@ -1,0 +1,30 @@
+/* My work styles */
+
+#mywork {
+
+}
+
+.card{
+	transition:transform 10ms;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card-img-top{
+	border:1px solid rgba(0,0,0,0.125);
+	padding:0;
+	background-size:stretch;
+
+}
+
+.card:hover{
+	-ms-transform: scale(1.1); /* IE 9 */
+	-webkit-transform: scale(1.1); /* Safari 3-8 */
+	transform:scale(1.030);
+}
+.card-footer{
+	transition:2s;
+}
+
+.card-footer:hover{
+	border: 1px solid #7bc3d1;
+
+}
